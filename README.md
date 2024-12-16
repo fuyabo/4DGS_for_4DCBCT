@@ -32,6 +32,7 @@ Comparison methods:
 
 [3] M. J. Riblett, G. E. Christensen, E. Weiss, and G. D. Hugo, Data-driven respiratory motion compensation for four-dimensional cone-beam computed tomography (4D-CBCT) using groupwise deformable registration, Med Phys 45, 4471(2018), 
 https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.13133.
+
 [4] C.-C. Shieh, V. Caillet, J. Booth, N. Hardcastle, C. Haddad, T. Eade, and P. Keall, 4D-CBCT reconstruction from a one minute scan, in Engineering and Physical Sciences in Medicine Conference (Hobart, Australia., 2017).
 
 [5] L. Ren, J. Zhang, D. Thongphiew, D. J. Godfrey, Q. J. Wu, S.-M. Zhou, and F.-F. Yin, A novel digital tomosynthesis (DTS) reconstruction method using a deformation field map, Med Phys 35, 3110 (2008), ISSN 0094-2405, URL http://www.ncbi.nlm.nih.gov/pmc/articles/
