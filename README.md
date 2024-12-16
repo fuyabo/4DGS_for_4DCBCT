@@ -1,5 +1,9 @@
 # 4DGS_for_4DCBCT
-Spatiotemporal Gaussian Optimization for 4D Cone Beam CT Reconstruction from Sparse Projections 
+
+**Title**
+
+Spatiotemporal Gaussian Optimization for 4D Cone Beam CT Reconstruction from Sparse Projections
+
 **Abstract:**
 
 In image-guided radiotherapy (IGRT), four-dimensional cone-beam computed tomography (4D-CBCT) is critical for assessing tumor motion during a patient’s breathing cycle prior to beam delivery. However, generating 4D-CBCT images with sufficient quality requires significantly more projection images than a standard 3D-CBCT scan, leading to extended scanning times and increased imaging dose to the patient. To address these limitations, there is a strong demand for methods capable of reconstructing high-quality 4D-CBCT images from a 1-minute 3D-CBCT acquisition. The challenge lies in the sparse sampling of projections, which introduces severe streaking artifacts and compromises image quality. This paper introduces a novel framework leveraging spatiotemporal Gaussian representation for 4D-CBCT reconstruction from sparse projections, achieving a balance between streak artifact reduction, dynamic motion preservation, and fine detail restoration. Each Gaussian is characterized by its 3D position, covariance, rotation, and density. Two-dimensional X-ray projection images can be rendered from the Gaussian point cloud representation via X-ray rasterization. The properties of each Gaussian were optimized by minimizing the discrepancy between the measured projections and the rendered X-ray projections. A Gaussian deformation network is jointly trained to deform these Gaussian properties to obtain a 4D Gaussian representation for dynamic CBCT scene modeling. The final 4D-CBCT images are reconstructed by voxelizing the 4D Gaussians, achieving a high-quality representation that preserves both motion dynamics and spatial detail. 
