@@ -1,3 +1,5 @@
+Paper Arxiv: https://arxiv.org/abs/2501.04140
+
 # CODE WILL BE RELEASED ONCE OUR PAPER IS ACCEPTED
 
 
@@ -40,3 +42,9 @@ https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.13133.
 
 [5] L. Ren, J. Zhang, D. Thongphiew, D. J. Godfrey, Q. J. Wu, S.-M. Zhou, and F.-F. Yin, A novel digital tomosynthesis (DTS) reconstruction method using a deformation field map, Med Phys 35, 3110 (2008), ISSN 0094-2405, URL http://www.ncbi.nlm.nih.gov/pmc/articles/
 PMC2809715/.
+
+
+
+Thanks to the works below, this work is inspired by: 
+https://guanjunwu.github.io/4dgs/
+https://github.com/Ruyi-Zha/r2_gaussian?tab=readme-ov-file
