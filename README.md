@@ -47,4 +47,6 @@ PMC2809715/.
 
 Thanks to the works below, this work is inspired by: 
 https://guanjunwu.github.io/4dgs/
+
+
 https://github.com/Ruyi-Zha/r2_gaussian?tab=readme-ov-file
