@@ -44,8 +44,10 @@ https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.13133.
 PMC2809715/.
 
 
+# Acknowledgement
 
-Thanks to the works below, this work is inspired by: 
+
+This work is inspired by: 
 
 
 https://guanjunwu.github.io/4dgs/
