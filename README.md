@@ -11,7 +11,7 @@ In image-guided radiotherapy (IGRT), four-dimensional cone-beam computed tomogra
 **Key Results:**
 
 **1. Clinical Data**
-The proposed method can recon high temporal (50 phases) CBCT from a 1-min scan.  Top one is 10 phases, bottom one is 50 phases.
+The proposed method can recon high temporal (50 phases) CBCT from a 1-min scan from Varian Truebeam.  Top one is 10 phases, bottom one is 50 phases.
 ![Demo](assets/1_Varian_10_phases.gif)
 ![Demo](assets/1_Varian_50_phases.gif)
 
@@ -20,6 +20,12 @@ Only showing one case. Please see assets folder for detailed list of Gifs for 29
 ![Demo](assets/MC_V_P2_NS_01_c.gif)
 ![Demo](assets/MC_V_P2_NS_01_s.gif)
 
+**To run the code**
+Follow R2_Gaussians (https://github.com/ruyi-zha/r2_gaussian) to install dependencies. 
+
+**For your own data**
+1. run init_pcd.py to generate the initial points from CGLS reconstruction (example: https://drive.google.com/file/d/10NPiS79sBjeubEN_UqlX-VD-4nmq81yB/view?usp=sharing).
+2. As an example, put the downloaded data in ./data/spare_dataset/MC_V_P2_NS_01. Then, run (python.exe train.py -s data/spare_dataset/MC_V_P2_NS_01).
 
 For datasets used, please refer to: https://image-x.sydney.edu.au/spare-challenge/ for details.
 
@@ -57,4 +63,5 @@ This work is inspired by:
 https://guanjunwu.github.io/4dgs/
 
 
-https://github.com/Ruyi-Zha/r2_gaussian?tab=readme-ov-file
+https://github.com/ruyi-zha/r2_gaussian
+
