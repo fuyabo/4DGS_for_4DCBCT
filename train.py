@@ -95,11 +95,9 @@ def training(
 
     # Set up Gaussians
     gaussians = GaussianModel(scale_bound, hp)
-    initialize_gaussian(gaussians, dataset, 30000)
+    initialize_gaussian(gaussians, dataset)
     scene.gaussians = gaussians
-    # yabo save voxelized CT
-    # scene.save(30000, queryfunc)
-    # end yabo
+
     gaussians.training_setup(opt)
     if checkpoint is not None:
         (model_params, first_iter) = torch.load(checkpoint)
@@ -137,14 +135,9 @@ def training(
         # Get one camera for training
         if not viewpoint_stack:
             viewpoint_stack = scene.getTrainCameras().copy()
-            if stage == 'fine':
-                # Filter the viewpoint_stack for cameras with time == 0.0 or 0.5
-                print('keep only 00 and 05')
-                viewpoint_stack = [cam for cam in viewpoint_stack if cam.time == 0.0 or cam.time == 0.5]
 
         viewpoint_cam = viewpoint_stack.pop(randint(0, len(viewpoint_stack) - 1))
-        if stage == 'fine':
-            print(f"stage {stage} ---angle {viewpoint_cam.angle}")
+        
         # Render X-ray projection
         render_pkg = render(viewpoint_cam, gaussians, pipe, stage)
         image, viewspace_point_tensor, visibility_filter, radii = (
