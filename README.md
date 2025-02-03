@@ -30,7 +30,9 @@ Follow R2_Gaussians (https://github.com/ruyi-zha/r2_gaussian) to install depende
 
 For datasets used, please refer to: https://image-x.sydney.edu.au/spare-challenge/ for details.
 
-Comparison methods **🔴 Not fair comparison, since our method did not rely on any prior information while.**:
+**Comparison methods**
+
+**🔴 Not fair comparison, since our method did not rely on any prior information.**:
 
 **MC-FDK**: the motion-compensated FDK [1] implemented by Dr Simon Rit from the CREATIS laboratory. A prior DVF is built from the pre-treatment 4D-C. Using this DVF, a FDK reconstruction is performed but with the backprojected traces deformed to correct for respiratory motion.
 
