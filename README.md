@@ -11,8 +11,8 @@ In image-guided radiotherapy (IGRT), four-dimensional cone-beam computed tomogra
 **Key Results:**
 
 The proposed method can recon high temporal (50 phases) CBCT from a 1-min scan.  
-![Demo](assets/1_Varian_10_Phases.gif)
-![Demo](assets/1_Varian_50_Phases.gif)
+![Demo](assets/1_Varian_10_phases.gif)
+![Demo](assets/1_Varian_50_phases.gif)
 
 
 
