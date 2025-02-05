@@ -2,7 +2,7 @@
 
 Paper Arxiv: https://arxiv.org/abs/2501.04140
 
-**🔴 Our method is purly data-driven, which does not need any prior motion model or 4DCT.**
+**🔴 Our method is purely data-driven, which does not need any prior motion model or 4DCT.**
 
 **Abstract:**
 
